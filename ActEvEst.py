@@ -35,7 +35,7 @@ df.median()
 df.std()
 
 # %%
-df.quantile(.25)
+df.quantile([.25,.5,.75])
 
 # %%
 df.quantile(0.5)
