@@ -14,6 +14,9 @@ df.size
 df.columns
 
 # %%
+df.info()
+
+# %%
 df.min()
 
 # %%
@@ -35,12 +38,7 @@ df.median()
 df.std()
 
 # %%
-df.quantile([.25,.5,.75])
+df.quantile([.25, .5, .75])
 
-# %%
-df.quantile(0.5)
-
-# %%
-df.quantile(0.75)
 
 # %%
